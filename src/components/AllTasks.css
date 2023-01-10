@@ -1,0 +1,66 @@
+.all-task-wrapper{
+    border: 3px solid red;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.one-task{
+    border: 3px solid blue;
+    border: none;
+    margin-top: 1em;
+    width: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    color: whitesmoke;
+    background-color: #cb3092;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.07em;
+}
+
+
+
+.eraser-btn{
+    margin-top: 4em;
+    margin-bottom: 1em;
+    width: 9em;
+    height: 4em;
+    color: whitesmoke;
+    background-color: #cb3092;
+    border: none;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.eraser-btn:hover,
+.eraser-btn:focus{
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    
+    
+
+}
+
+.one-task button{
+    border: 3px solid #400036;
+    /* border: none; */
+    width: 7em;
+    height: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: #400036;
+}
+
+.one-task button:hover,
+.one-task button:focus{
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+}
