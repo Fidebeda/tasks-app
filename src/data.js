@@ -1,9 +1,9 @@
 const data = [
-    { id: 1, name: 'Vynést koš' },
-    { id: 2, name: 'Uklidit kuchyň' },
-    { id: 3, name: 'Zajít do fitka' },
-    { id: 4, name: 'Nakoupit' },
-    { id: 5, name: 'Nakrmit kočku' },
+    { id: 1, name: 'Koupit psa' },
+    { id: 2, name: 'Uklidit garáž' },
+    { id: 3, name: 'Zajít do kina' },
+    { id: 4, name: 'Napsat knihu' },
+    { id: 5, name: 'Nakrmit psa' },
 ]
  
 export default data
